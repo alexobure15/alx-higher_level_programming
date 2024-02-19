@@ -1,0 +1,26 @@
+#!/usr/bin/python3
+"""Defines a MyList class with additional methods."""
+
+
+class MyList(list):
+    """
+    Custom list class that extends the built-in list class.
+
+    Attributes:
+    None
+
+    Methods:
+    print_sorted(): Print the elements of the list in sorted order.
+    """
+    def print_sorted(self):
+        """
+        Print the elements of the list in sorted order.
+
+        Args:
+        None
+
+        Returns:
+        None
+        """
+        sorted_list = sorted(self)
+        print(sorted_list)
